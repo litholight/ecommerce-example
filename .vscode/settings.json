@@ -1,5 +1,13 @@
 {
   "emmet.includeLanguages": {
      "javascript": "javascriptreact"
-  }
+  },
+  // Set the default
+  "editor.formatOnSave": true,
+  // Enable per-language
+  "[javascript]": {
+      "editor.formatOnSave": true
+  },
+  "editor.fontFamily": "Operator Mono Lig, Menlo, Monaco, 'Courier New', monospace"
+  
 }
